@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>First</servlet-name>
+		<servlet-class>MyFirstServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>account</servlet-name>
+		<servlet-class>MyAccount</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>First</servlet-name>
+		<url-pattern>/homepage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>account</servlet-name>
+		<url-pattern>/MyAccount</url-pattern>
+	</servlet-mapping>
+</web-app>
